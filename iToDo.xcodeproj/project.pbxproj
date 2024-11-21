@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CF1207BC2CEF94A000E79A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF12079F2CEF949E00E79A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1207A62CEF949F00E79A38;
+			remoteInfo = iToDo;
+		};
+		CF1207C62CEF94A000E79A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF12079F2CEF949E00E79A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1207A62CEF949F00E79A38;
+			remoteInfo = iToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1207A72CEF949F00E79A38 /* iToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1207BB2CEF94A000E79A38 /* iToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1207C52CEF94A000E79A38 /* iToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CF1207CD2CEF94A000E79A38 /* Exceptions for "iToDo" folder in "iToDo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CF1207A62CEF949F00E79A38 /* iToDo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CF1207A92CEF949F00E79A38 /* iToDo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CF1207CD2CEF94A000E79A38 /* Exceptions for "iToDo" folder in "iToDo" target */,
+			);
+			path = iToDo;
+			sourceTree = "<group>";
+		};
+		CF1207BE2CEF94A000E79A38 /* iToDoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iToDoTests;
+			sourceTree = "<group>";
+		};
+		CF1207C82CEF94A000E79A38 /* iToDoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iToDoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1207A42CEF949F00E79A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1207B82CEF94A000E79A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1207C22CEF94A000E79A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF12079E2CEF949E00E79A38 = {
+			isa = PBXGroup;
+			children = (
+				CF1207A92CEF949F00E79A38 /* iToDo */,
+				CF1207BE2CEF94A000E79A38 /* iToDoTests */,
+				CF1207C82CEF94A000E79A38 /* iToDoUITests */,
+				CF1207A82CEF949F00E79A38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1207A82CEF949F00E79A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1207A72CEF949F00E79A38 /* iToDo.app */,
+				CF1207BB2CEF94A000E79A38 /* iToDoTests.xctest */,
+				CF1207C52CEF94A000E79A38 /* iToDoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1207A62CEF949F00E79A38 /* iToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1207CE2CEF94A000E79A38 /* Build configuration list for PBXNativeTarget "iToDo" */;
+			buildPhases = (
+				CF1207A32CEF949F00E79A38 /* Sources */,
+				CF1207A42CEF949F00E79A38 /* Frameworks */,
+				CF1207A52CEF949F00E79A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CF1207A92CEF949F00E79A38 /* iToDo */,
+			);
+			name = iToDo;
+			packageProductDependencies = (
+			);
+			productName = iToDo;
+			productReference = CF1207A72CEF949F00E79A38 /* iToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF1207BA2CEF94A000E79A38 /* iToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1207D32CEF94A000E79A38 /* Build configuration list for PBXNativeTarget "iToDoTests" */;
+			buildPhases = (
+				CF1207B72CEF94A000E79A38 /* Sources */,
+				CF1207B82CEF94A000E79A38 /* Frameworks */,
+				CF1207B92CEF94A000E79A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1207BD2CEF94A000E79A38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CF1207BE2CEF94A000E79A38 /* iToDoTests */,
+			);
+			name = iToDoTests;
+			packageProductDependencies = (
+			);
+			productName = iToDoTests;
+			productReference = CF1207BB2CEF94A000E79A38 /* iToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF1207C42CEF94A000E79A38 /* iToDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1207D62CEF94A000E79A38 /* Build configuration list for PBXNativeTarget "iToDoUITests" */;
+			buildPhases = (
+				CF1207C12CEF94A000E79A38 /* Sources */,
+				CF1207C22CEF94A000E79A38 /* Frameworks */,
+				CF1207C32CEF94A000E79A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1207C72CEF94A000E79A38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CF1207C82CEF94A000E79A38 /* iToDoUITests */,
+			);
+			name = iToDoUITests;
+			packageProductDependencies = (
+			);
+			productName = iToDoUITests;
+			productReference = CF1207C52CEF94A000E79A38 /* iToDoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF12079F2CEF949E00E79A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CF1207A62CEF949F00E79A38 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CF1207BA2CEF94A000E79A38 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CF1207A62CEF949F00E79A38;
+					};
+					CF1207C42CEF94A000E79A38 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CF1207A62CEF949F00E79A38;
+					};
+				};
+			};
+			buildConfigurationList = CF1207A22CEF949E00E79A38 /* Build configuration list for PBXProject "iToDo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF12079E2CEF949E00E79A38;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CF1207A82CEF949F00E79A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1207A62CEF949F00E79A38 /* iToDo */,
+				CF1207BA2CEF94A000E79A38 /* iToDoTests */,
+				CF1207C42CEF94A000E79A38 /* iToDoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1207A52CEF949F00E79A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1207B92CEF94A000E79A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1207C32CEF94A000E79A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1207A32CEF949F00E79A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1207B72CEF94A000E79A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1207C12CEF94A000E79A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1207BD2CEF94A000E79A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1207A62CEF949F00E79A38 /* iToDo */;
+			targetProxy = CF1207BC2CEF94A000E79A38 /* PBXContainerItemProxy */;
+		};
+		CF1207C72CEF94A000E79A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1207A62CEF949F00E79A38 /* iToDo */;
+			targetProxy = CF1207C62CEF94A000E79A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF1207CF2CEF94A000E79A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iToDo/iToDo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iToDo/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quflow.iToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF1207D02CEF94A000E79A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iToDo/iToDo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iToDo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iToDo/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quflow.iToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CF1207D12CEF94A000E79A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF1207D22CEF94A000E79A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CF1207D42CEF94A000E79A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quflow.iToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iToDo";
+			};
+			name = Debug;
+		};
+		CF1207D52CEF94A000E79A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quflow.iToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iToDo";
+			};
+			name = Release;
+		};
+		CF1207D72CEF94A000E79A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quflow.iToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iToDo;
+			};
+			name = Debug;
+		};
+		CF1207D82CEF94A000E79A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quflow.iToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iToDo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1207A22CEF949E00E79A38 /* Build configuration list for PBXProject "iToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1207D12CEF94A000E79A38 /* Debug */,
+				CF1207D22CEF94A000E79A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1207CE2CEF94A000E79A38 /* Build configuration list for PBXNativeTarget "iToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1207CF2CEF94A000E79A38 /* Debug */,
+				CF1207D02CEF94A000E79A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1207D32CEF94A000E79A38 /* Build configuration list for PBXNativeTarget "iToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1207D42CEF94A000E79A38 /* Debug */,
+				CF1207D52CEF94A000E79A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1207D62CEF94A000E79A38 /* Build configuration list for PBXNativeTarget "iToDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1207D72CEF94A000E79A38 /* Debug */,
+				CF1207D82CEF94A000E79A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF12079F2CEF949E00E79A38 /* Project object */;
+}
